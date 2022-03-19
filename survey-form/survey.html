@@ -21,7 +21,7 @@
                 <label class="field-label">
                   <span class="field-span"> Name </span>
                   <input
-                    id="name"
+                    id="name-label"
                     type="text"
                     class="input"
                     placeholder="Enter your name"
@@ -29,13 +29,14 @@
                 </label>
               </div>
               <div class="form">
-                <label class="field-label">
+                <label class="field-label" for="email">
                   <span class="field-span">Email</span>
                   <input
-                    id="email"
+                    id="email-label"
                     type="email"
                     class="input"
                     placeholder="Enter your Email"
+                    required
                   />
                 </label>
               </div>
@@ -43,14 +44,16 @@
                 <label class="field-label">
                   <span class="field-span">Age(optional)</span>
                   <input
-                    id="number"
+                    id="number-label"
                     type="number"
                     class="input"
+                    min="5"
+                    max="100"
                     placeholder="Age"
                   />
                 </label>
               </div>
-              <div class="form">
+              <div id="dropdown" class="form">
                 <label class="field-form">
                   <span class="field-span"
                     >Which option best describes your current role?</span
