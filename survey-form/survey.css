@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #main {
   width: 100%;
   height: 100vh;
@@ -19,7 +23,7 @@ h1 {
   margin: 0;
   font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 46px;
   color: #01060a;
 }
 p {
@@ -31,12 +35,108 @@ p {
 }
 
 .container {
-  width: 400px;
-  height: 500px;
+  width: 40%;
+
   border: 2px solid black;
   margin: auto;
+  background-color: rgb(32, 25, 100);
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.form {
+  margin: 30px 0;
+}
+
+.field-span {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input {
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
 }
 
 #survey-form {
   text-align: center;
+}
+
+#select {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 95%;
+  height: 38px;
+  padding-left: 10px;
+  padding-right: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+.radio-btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 95%;
+  height: 38px;
+  padding-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.radioo {
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma;
+  padding-left: 20px;
+}
+
+#maybe,
+#definitely,
+#not-sure {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.radioo label {
+  position: absolute;
+  left: 50px;
+}
+
+.field-span1 {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form1 {
+  margin-top: 40px;
+}
+
+.form-group {
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  margin-left: 15px;
 }
