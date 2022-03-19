@@ -145,3 +145,24 @@ p {
   margin-bottom: 0.5rem;
   margin-left: 15px;
 }
+
+.form-group p {
+  display: block;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma;
+  font-size: larger;
+  text-align: start;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#comments {
+  min-height: 100px;
+  width: 90%;
+  padding: 0.625rem;
+  resize: vertical;
+  border-radius: 5px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma;
+  margin-left: 10px;
+}
