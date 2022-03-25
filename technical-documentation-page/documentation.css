@@ -5,22 +5,15 @@
 }
 
 html {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif, Arial, sans-serif;
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
-}
-
-html,
-body {
-  overflow: hidden;
 }
 
 body {
   position: relative;
   height: 100vh;
-  background-color: ;
 }
 
 .fullpage {
@@ -48,6 +41,11 @@ section {
 #main-doc header {
   text-align: left;
   margin: 0;
+}
+
+header {
+  color: black;
+  font-size: 1.8em;
 }
 
 p {
@@ -83,7 +81,16 @@ li {
   text-align: -webkit-match-parent;
 }
 
-@media (max-width: 760px), (max-height: 440px) {
-  min-width: 320px;
-  touch-action: manipulation;
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  line-height: 2;
+  background-color: rgb(250, 242, 232);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: monospace;
 }
