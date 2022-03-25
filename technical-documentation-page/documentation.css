@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background-color: ;
+}
+
+.fullpage {
+  padding-bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 300px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+main {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+section article {
+  color: rgb(70, 64, 64);
+  margin: 15px;
+  font-size: 0.97em;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  padding-inline-start: 40px;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+@media (max-width: 760px), (max-height: 440px) {
+  min-width: 320px;
+  touch-action: manipulation;
+}
