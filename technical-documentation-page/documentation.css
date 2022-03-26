@@ -49,6 +49,13 @@ nav {
   cursor: pointer;
 }
 
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 #navbar li {
   border-top: 1px solid;
   list-style: none;
