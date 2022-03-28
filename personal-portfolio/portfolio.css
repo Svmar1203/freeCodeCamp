@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Comic "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: azure;
+  background: rgb(102, 84, 84);
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(214, 69, 69);
+  box-shadow: 0 2px 0 rgb(0 0 0 /40%);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://promo.com/tools/image-resizer/static/Pattern_image-8c050053eab884e51b8599607865d112.jpg);
+}
+
+h1 {
+  font-family: cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
+.welcome-section p {
+  font-family: cursive;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: rgb(74, 74, 78);
+}
+
+.projects-section h2 {
+  font-family: cursive;
+}
+
+.projects-section-header {
+  max-width: 700px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project {
+  background: rgb(72, 72, 98);
+
+  box-shadow: 1px 1px 2px rgb(0 0 0 /50%);
+  border-radius: 2px;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+img {
+  display: block;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+.code {
+  color: blue;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: rgb(77, 4, 4);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: rgb(57, 45, 68);
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px rgb(75, 38, 38);
+  transition: transform 0.3s ease-out;
+}
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-top: 4px solid red;
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+@media (min-width: 830px) body {
+  min-height: 100vh;
+}
