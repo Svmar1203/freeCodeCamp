@@ -192,3 +192,7 @@ footer > p {
 @media (min-width: 830px) body {
   min-height: 100vh;
 }
+
+@media (min-width: 1230px) body {
+  min-height: 100vh;
+}
