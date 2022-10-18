@@ -1,0 +1,103 @@
+body {
+  background-image: url(https://ottosgranary.com/wp-content/uploads/2018/02/Evening-Fan..jpeg);
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+div {
+  display: block;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0em;
+  margin-inline-end: 0px;
+}
+
+.established {
+  font-size: 25px;
+  font-style: italic;
+}
+
+hr {
+  height: 4px;
+  background-color: brown;
+  border-color: brown;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+article {
+  display: block;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+ 
