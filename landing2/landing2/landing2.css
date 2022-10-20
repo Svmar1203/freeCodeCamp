@@ -1,13 +1,27 @@
 body {
-  background-image: url(https://ottosgranary.com/wp-content/uploads/2018/02/Evening-Fan..jpeg);
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
   padding: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-body {
-  display: block;
-  margin: 8px;
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
 }
 
 .menu {
@@ -19,8 +33,14 @@ body {
   max-width: 500px;
 }
 
-div {
-  display: block;
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
 }
 
 h1,
@@ -28,76 +48,30 @@ h2 {
   font-family: Impact, serif;
 }
 
-h1,
-h2,
-p {
-  text-align: center;
-}
-
-h1 {
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0em;
-  margin-inline-end: 0px;
-}
-
-.established {
-  font-size: 25px;
-  font-style: italic;
-}
-
-hr {
-  height: 4px;
-  background-color: brown;
-  border-color: brown;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -25px;
-}
-
-article {
-  display: block;
-}
-
 .item p {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 18px;
 }
 
 .flavor,
 .dessert {
   text-align: left;
-  width: 75%;
+  width: 73%;
 }
 
-h2 {
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+.price {
+  text-align: right;
+  width: 25%;
 }
 
-.bottom-line {
-  margin-top: 25px;
+/* FOOTER */
+
+footer {
+  font-size: 14px;
 }
- 
+
+.address {
+  margin-bottom: 5px;
+}
