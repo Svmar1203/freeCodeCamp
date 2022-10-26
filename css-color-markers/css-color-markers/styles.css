@@ -48,3 +48,21 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: bisque;
+  opacity: 0.5;
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.cap,
+.sleeve {
+  display: inline-block;
+}
