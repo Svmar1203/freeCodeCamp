@@ -32,14 +32,17 @@ h1 {
 
 .four {
   background-color: rgb(0, 255, 127);
+  box-shadow: 5px 5px 5px greenyellow;
 }
 
 .five {
   background-color: rgb(127, 0, 255);
+  box-shadow: 5px 5px 5px rgb(105, 27, 162);
 }
 
 .six {
   background-color: rgb(255, 0, 127);
+  box-shadow: 0 0 0 5px rgb(239, 115, 210);
 }
 
 .container {
