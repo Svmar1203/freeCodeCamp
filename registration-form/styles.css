@@ -5,6 +5,8 @@ body {
 
   background-color: #1b1b32;
   color: #f5f6f7;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 label {
