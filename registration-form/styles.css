@@ -15,14 +15,29 @@ label {
   font-size: 20px;
 }
 
-h1 {
-  font-size: 40px;
+h1,
+p {
+  text-align: center;
+  margin: 1em auto;
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 input {
   font-size: 20px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  width: 60vw;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
 }
